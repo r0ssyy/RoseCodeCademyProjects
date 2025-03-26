@@ -1,0 +1,77 @@
+#nav-link{
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 1em;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-family: 'Roboto', sans-serif;
+
+}
+:hover{
+    color: #f00;
+
+
+}
+h1{
+    font-size: 3em;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    margin: 0.5em 0;
+}
+.btn{
+    background-color:black;
+    color: #fff;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family:'Raleway', sans-serif;
+    margin: 0 1em;
+    font-style: italic;
+
+}
+:hover{
+    background-color:red = hsl(0, 100%, 50%);
+    transition-duration:0.3s;
+    transition-property: none ;
+    border-radius: 5px;
+    font-family: 'qrial', sans-serif;
+    font-style: italic;
+   
+    
+
+}
+.active{
+    background-color: rgb(15, 196, 228);
+    transition-duration:0.3s;
+    transition-property: none ;
+}
+.nav-link{
+    color:black;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 1em;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-family: 'Roboto', sans-serif;
+}
+.activity .btn{
+   
+    background-color:rgb(50, 50, 44);
+    transition-duration:0.3s;
+    transition-property: none ;
+    border-radius: 5px;
+    font-family: 'qrial', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 10px;
+    
+}
