@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../tea"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "paraiso_ni_maximo"
+	}
+}

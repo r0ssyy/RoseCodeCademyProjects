@@ -1,0 +1,81 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+}
+header {
+    background-color: #0dc45f;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    font-style: italic;
+   padding-bottom: 1cm;
+}
+header:hover {
+    background-color: #6bdeae;
+    transition: background-color 0.3s ease;
+    color:black;
+    font-weight: bolder;
+    font-size: 35px;
+    font-style: normal;
+    
+}
+
+
+.container {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.section {
+    margin-bottom: 30px;
+}
+h2 {
+    color: #4CAF50;
+}
+.gallery, .team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.gallery img, .team div {
+    flex: 1 1 300px;
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    background: #4CAF50;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+.contact {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+header img{
+    width: 100px;
+    height: auto;
+    margin-bottom: 1px;
+    margin-top: 30px;
+}
